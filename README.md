@@ -1,4 +1,4 @@
-# Autonomous ROS2 Robot with PID Control and Q-Learning
+# Q-Learning based mobile robot navigation
 
 **An ROS2-based autonomous mobile robot integrating wheel odometry, PID velocity control, LiDAR obstacle detection, and Q-learning path planning for adaptive navigation in grid environments.**
 
