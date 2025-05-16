@@ -12,7 +12,8 @@ This project implements an autonomous mobile robot using ROS2. It combines the f
 * **Obstacle Detection**: Uses LiDAR to detect obstacles, publishes detection events to trigger replanning.
 * **Q-Learning Node**: Learns optimal grid-based navigation policy in the presence of obstacles, outputs next waypoints.
 
-The flow of data is visualized in the included `rqt_graph`:
+The flow of data is visualized in the included `rqt_graph`:![image](https://github.com/user-attachments/assets/6f59c7e3-ff5b-4e3c-b0d4-f9f9f73c3759)
+
 
 ```
 /motor_sub --> enc_pub --> pid_control_node --> obstacle_detection --> q_learning_node
