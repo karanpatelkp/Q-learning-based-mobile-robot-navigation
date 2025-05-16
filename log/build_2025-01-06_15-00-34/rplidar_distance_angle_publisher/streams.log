@@ -1,0 +1,24 @@
+[1.818s] Invoking command in '/home/batch9/ros2_ws/src/rplidar_distance_angle_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rplidar_distance_angle_publisher build --build-base /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/build install --record /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/install.log --single-version-externally-managed install_data
+[2.282s] running egg_info
+[2.312s] writing ../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info/PKG-INFO
+[2.313s] writing dependency_links to ../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info/dependency_links.txt
+[2.316s] writing entry points to ../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info/entry_points.txt
+[2.317s] writing requirements to ../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info/requires.txt
+[2.317s] writing top-level names to ../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info/top_level.txt
+[2.383s] reading manifest file '../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info/SOURCES.txt'
+[2.385s] writing manifest file '../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info/SOURCES.txt'
+[2.385s] running build
+[2.385s] running build_py
+[2.385s] copying rplidar_distance_angle_publisher/distance_angle_publisher.py -> /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/build/lib/rplidar_distance_angle_publisher
+[2.386s] running install
+[2.396s] running install_lib
+[2.427s] copying /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/build/lib/rplidar_distance_angle_publisher/distance_angle_publisher.py -> /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages/rplidar_distance_angle_publisher
+[2.428s] byte-compiling /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages/rplidar_distance_angle_publisher/distance_angle_publisher.py to distance_angle_publisher.cpython-312.pyc
+[2.430s] running install_data
+[2.430s] running install_egg_info
+[2.463s] removing '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages/rplidar_distance_angle_publisher-0.0.0-py3.12.egg-info' (and everything under it)
+[2.463s] Copying ../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info to /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages/rplidar_distance_angle_publisher-0.0.0-py3.12.egg-info
+[2.465s] running install_scripts
+[2.692s] Installing distance_angle_publisher script to /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/rplidar_distance_angle_publisher
+[2.693s] writing list of installed files to '/home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/install.log'
+[2.818s] Invoked command in '/home/batch9/ros2_ws/src/rplidar_distance_angle_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rplidar_distance_angle_publisher build --build-base /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/build install --record /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/install.log --single-version-externally-managed install_data

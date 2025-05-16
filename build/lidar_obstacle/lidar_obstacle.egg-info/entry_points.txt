@@ -1,0 +1,2 @@
+[console_scripts]
+obstacle_detection = lidar_obstacle.obstacle_detection:main

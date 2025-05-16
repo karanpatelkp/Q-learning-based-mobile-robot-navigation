@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/pid_control_node/pid_control_node.egg-info
+writing ../../build/pid_control_node/pid_control_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/pid_control_node/pid_control_node.egg-info/dependency_links.txt
+writing entry points to ../../build/pid_control_node/pid_control_node.egg-info/entry_points.txt
+writing requirements to ../../build/pid_control_node/pid_control_node.egg-info/requires.txt
+writing top-level names to ../../build/pid_control_node/pid_control_node.egg-info/top_level.txt
+writing manifest file '../../build/pid_control_node/pid_control_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/pid_control_node/pid_control_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/pid_control_node/pid_control_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/batch9/ros2_ws/build/pid_control_node/build
+creating /home/batch9/ros2_ws/build/pid_control_node/build/lib
+creating /home/batch9/ros2_ws/build/pid_control_node/build/lib/pid_control_node
+copying pid_control_node/__init__.py -> /home/batch9/ros2_ws/build/pid_control_node/build/lib/pid_control_node
+copying pid_control_node/pid_control.py -> /home/batch9/ros2_ws/build/pid_control_node/build/lib/pid_control_node
+running install
+running install_lib
+creating /home/batch9/ros2_ws/install/pid_control_node/lib/python3.12/site-packages/pid_control_node
+copying /home/batch9/ros2_ws/build/pid_control_node/build/lib/pid_control_node/__init__.py -> /home/batch9/ros2_ws/install/pid_control_node/lib/python3.12/site-packages/pid_control_node
+copying /home/batch9/ros2_ws/build/pid_control_node/build/lib/pid_control_node/pid_control.py -> /home/batch9/ros2_ws/install/pid_control_node/lib/python3.12/site-packages/pid_control_node
+byte-compiling /home/batch9/ros2_ws/install/pid_control_node/lib/python3.12/site-packages/pid_control_node/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/batch9/ros2_ws/install/pid_control_node/lib/python3.12/site-packages/pid_control_node/pid_control.py to pid_control.cpython-312.pyc
+running install_data
+creating /home/batch9/ros2_ws/install/pid_control_node/share/ament_index
+creating /home/batch9/ros2_ws/install/pid_control_node/share/ament_index/resource_index
+creating /home/batch9/ros2_ws/install/pid_control_node/share/ament_index/resource_index/packages
+copying resource/pid_control_node -> /home/batch9/ros2_ws/install/pid_control_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/batch9/ros2_ws/install/pid_control_node/share/pid_control_node
+running install_egg_info
+Copying ../../build/pid_control_node/pid_control_node.egg-info to /home/batch9/ros2_ws/install/pid_control_node/lib/python3.12/site-packages/pid_control_node-0.0.0-py3.12.egg-info
+running install_scripts
+Installing pid_control script to /home/batch9/ros2_ws/install/pid_control_node/lib/pid_control_node
+writing list of installed files to '/home/batch9/ros2_ws/build/pid_control_node/install.log'

@@ -1,0 +1,21 @@
+[2.223s] Invoking command in '/home/batch9/ros2_ws/src/pid': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/pid/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/pid/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pid build --build-base /home/batch9/ros2_ws/build/pid/build install --record /home/batch9/ros2_ws/build/pid/install.log --single-version-externally-managed install_data
+[2.893s] running egg_info
+[2.948s] writing ../../build/pid/pid.egg-info/PKG-INFO
+[2.949s] writing dependency_links to ../../build/pid/pid.egg-info/dependency_links.txt
+[2.954s] writing entry points to ../../build/pid/pid.egg-info/entry_points.txt
+[2.955s] writing requirements to ../../build/pid/pid.egg-info/requires.txt
+[2.956s] writing top-level names to ../../build/pid/pid.egg-info/top_level.txt
+[3.015s] reading manifest file '../../build/pid/pid.egg-info/SOURCES.txt'
+[3.016s] writing manifest file '../../build/pid/pid.egg-info/SOURCES.txt'
+[3.016s] running build
+[3.018s] running build_py
+[3.018s] running install
+[3.048s] running install_lib
+[3.082s] running install_data
+[3.082s] running install_egg_info
+[3.121s] removing '/home/batch9/ros2_ws/install/pid/lib/python3.12/site-packages/pid-0.0.0-py3.12.egg-info' (and everything under it)
+[3.125s] Copying ../../build/pid/pid.egg-info to /home/batch9/ros2_ws/install/pid/lib/python3.12/site-packages/pid-0.0.0-py3.12.egg-info
+[3.135s] running install_scripts
+[3.482s] Installing pid script to /home/batch9/ros2_ws/install/pid/lib/pid
+[3.483s] writing list of installed files to '/home/batch9/ros2_ws/build/pid/install.log'
+[3.611s] Invoked command in '/home/batch9/ros2_ws/src/pid' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/pid/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/pid/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pid build --build-base /home/batch9/ros2_ws/build/pid/build install --record /home/batch9/ros2_ws/build/pid/install.log --single-version-externally-managed install_data

@@ -1,0 +1,2 @@
+[console_scripts]
+encoder_pub = encoder_node.encoder_pub:main

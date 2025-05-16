@@ -1,0 +1,13 @@
+[  5%] Built target rplidar_client
+[  7%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o[0m
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/batch9/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rplidar_composition.dir/build.make:76: CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/rplidar_composition.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/batch9/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rplidar_node.dir/build.make:76: CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/rplidar_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

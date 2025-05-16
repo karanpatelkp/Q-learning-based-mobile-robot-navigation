@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/lidar_obstacle/lidar_obstacle.egg-info
+writing ../../build/lidar_obstacle/lidar_obstacle.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_obstacle/lidar_obstacle.egg-info/dependency_links.txt
+writing requirements to ../../build/lidar_obstacle/lidar_obstacle.egg-info/requires.txt
+writing top-level names to ../../build/lidar_obstacle/lidar_obstacle.egg-info/top_level.txt
+writing manifest file '../../build/lidar_obstacle/lidar_obstacle.egg-info/SOURCES.txt'
+reading manifest file '../../build/lidar_obstacle/lidar_obstacle.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_obstacle/lidar_obstacle.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/batch9/ros2_ws/build/lidar_obstacle/build
+creating /home/batch9/ros2_ws/build/lidar_obstacle/build/lib
+creating /home/batch9/ros2_ws/build/lidar_obstacle/build/lib/lidar_obstacle
+copying lidar_obstacle/__init__.py -> /home/batch9/ros2_ws/build/lidar_obstacle/build/lib/lidar_obstacle
+running install
+running install_lib
+creating /home/batch9/ros2_ws/install/lidar_obstacle/lib/python3.12/site-packages/lidar_obstacle
+copying /home/batch9/ros2_ws/build/lidar_obstacle/build/lib/lidar_obstacle/__init__.py -> /home/batch9/ros2_ws/install/lidar_obstacle/lib/python3.12/site-packages/lidar_obstacle
+byte-compiling /home/batch9/ros2_ws/install/lidar_obstacle/lib/python3.12/site-packages/lidar_obstacle/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/batch9/ros2_ws/install/lidar_obstacle/share/ament_index
+creating /home/batch9/ros2_ws/install/lidar_obstacle/share/ament_index/resource_index
+creating /home/batch9/ros2_ws/install/lidar_obstacle/share/ament_index/resource_index/packages
+copying resource/lidar_obstacle -> /home/batch9/ros2_ws/install/lidar_obstacle/share/ament_index/resource_index/packages
+copying package.xml -> /home/batch9/ros2_ws/install/lidar_obstacle/share/lidar_obstacle
+running install_egg_info
+Copying ../../build/lidar_obstacle/lidar_obstacle.egg-info to /home/batch9/ros2_ws/install/lidar_obstacle/lib/python3.12/site-packages/lidar_obstacle-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/batch9/ros2_ws/build/lidar_obstacle/install.log'

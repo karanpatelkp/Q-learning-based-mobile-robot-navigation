@@ -1,0 +1,16 @@
+[2.647s] Invoking command in '/home/batch9/ros2_ws/build/motor_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/batch9/ros2_ws/build/motor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/motor_node/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/batch9/ros2_ws/build/motor_node/build --no-deps symlink_data
+[3.250s] running develop
+[3.543s] running egg_info
+[3.569s] writing motor_node.egg-info/PKG-INFO
+[3.569s] writing dependency_links to motor_node.egg-info/dependency_links.txt
+[3.573s] writing entry points to motor_node.egg-info/entry_points.txt
+[3.574s] writing requirements to motor_node.egg-info/requires.txt
+[3.574s] writing top-level names to motor_node.egg-info/top_level.txt
+[3.648s] reading manifest file 'motor_node.egg-info/SOURCES.txt'
+[3.649s] writing manifest file 'motor_node.egg-info/SOURCES.txt'
+[3.693s] running build_ext
+[3.693s] Creating /home/batch9/ros2_ws/install/motor_node/lib/python3.12/site-packages/motor-node.egg-link (link to .)
+[3.695s] Installing motor_sub script to /home/batch9/ros2_ws/install/motor_node/lib/motor_node
+[3.696s] 
+[3.696s] Installed /home/batch9/ros2_ws/build/motor_node
+[3.699s] running symlink_data

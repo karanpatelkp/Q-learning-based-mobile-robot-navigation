@@ -1,0 +1,24 @@
+[2.890s] Invoking command in '/home/batch9/ros2_ws/src/build/lidar_obstacle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/src/build/lidar_obstacle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/src/install/lidar_obstacle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/batch9/ros2_ws/src/build/lidar_obstacle/build --no-deps symlink_data
+[3.455s] running develop
+[3.753s] running egg_info
+[3.753s] creating lidar_obstacle.egg-info
+[3.783s] writing lidar_obstacle.egg-info/PKG-INFO
+[3.783s] writing dependency_links to lidar_obstacle.egg-info/dependency_links.txt
+[3.783s] writing entry points to lidar_obstacle.egg-info/entry_points.txt
+[3.786s] writing requirements to lidar_obstacle.egg-info/requires.txt
+[3.786s] writing top-level names to lidar_obstacle.egg-info/top_level.txt
+[3.786s] writing manifest file 'lidar_obstacle.egg-info/SOURCES.txt'
+[3.845s] reading manifest file 'lidar_obstacle.egg-info/SOURCES.txt'
+[3.846s] writing manifest file 'lidar_obstacle.egg-info/SOURCES.txt'
+[3.878s] running build_ext
+[3.878s] Creating /home/batch9/ros2_ws/src/install/lidar_obstacle/lib/python3.12/site-packages/lidar-obstacle.egg-link (link to .)
+[3.878s] Installing obstacle_detection script to /home/batch9/ros2_ws/src/install/lidar_obstacle/lib/lidar_obstacle
+[3.878s] 
+[3.878s] Installed /home/batch9/ros2_ws/src/build/lidar_obstacle
+[3.879s] running symlink_data
+[3.879s] creating /home/batch9/ros2_ws/src/install/lidar_obstacle/share/ament_index
+[3.879s] creating /home/batch9/ros2_ws/src/install/lidar_obstacle/share/ament_index/resource_index
+[3.879s] creating /home/batch9/ros2_ws/src/install/lidar_obstacle/share/ament_index/resource_index/packages
+[3.879s] symbolically linking /home/batch9/ros2_ws/src/build/lidar_obstacle/resource/lidar_obstacle -> /home/batch9/ros2_ws/src/install/lidar_obstacle/share/ament_index/resource_index/packages
+[3.879s] symbolically linking /home/batch9/ros2_ws/src/build/lidar_obstacle/package.xml -> /home/batch9/ros2_ws/src/install/lidar_obstacle/share/lidar_obstacle
+[4.060s] Invoked command in '/home/batch9/ros2_ws/src/build/lidar_obstacle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/src/build/lidar_obstacle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/src/install/lidar_obstacle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/batch9/ros2_ws/src/build/lidar_obstacle/build --no-deps symlink_data

@@ -1,0 +1,21 @@
+[1.791s] Invoking command in '/home/batch9/ros2_ws/src/q_learning_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/q_learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/q_learning_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/q_learning_node build --build-base /home/batch9/ros2_ws/build/q_learning_node/build install --record /home/batch9/ros2_ws/build/q_learning_node/install.log --single-version-externally-managed install_data
+[2.228s] running egg_info
+[2.266s] writing ../../build/q_learning_node/q_learning_node.egg-info/PKG-INFO
+[2.266s] writing dependency_links to ../../build/q_learning_node/q_learning_node.egg-info/dependency_links.txt
+[2.267s] writing entry points to ../../build/q_learning_node/q_learning_node.egg-info/entry_points.txt
+[2.267s] writing requirements to ../../build/q_learning_node/q_learning_node.egg-info/requires.txt
+[2.268s] writing top-level names to ../../build/q_learning_node/q_learning_node.egg-info/top_level.txt
+[2.342s] reading manifest file '../../build/q_learning_node/q_learning_node.egg-info/SOURCES.txt'
+[2.344s] writing manifest file '../../build/q_learning_node/q_learning_node.egg-info/SOURCES.txt'
+[2.344s] running build
+[2.346s] running build_py
+[2.347s] running install
+[2.354s] running install_lib
+[2.386s] running install_data
+[2.386s] running install_egg_info
+[2.414s] removing '/home/batch9/ros2_ws/install/q_learning_node/lib/python3.12/site-packages/q_learning_node-0.0.0-py3.12.egg-info' (and everything under it)
+[2.414s] Copying ../../build/q_learning_node/q_learning_node.egg-info to /home/batch9/ros2_ws/install/q_learning_node/lib/python3.12/site-packages/q_learning_node-0.0.0-py3.12.egg-info
+[2.416s] running install_scripts
+[2.623s] Installing q_learning script to /home/batch9/ros2_ws/install/q_learning_node/lib/q_learning_node
+[2.625s] writing list of installed files to '/home/batch9/ros2_ws/build/q_learning_node/install.log'
+[2.722s] Invoked command in '/home/batch9/ros2_ws/src/q_learning_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/q_learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/q_learning_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/q_learning_node build --build-base /home/batch9/ros2_ws/build/q_learning_node/build install --record /home/batch9/ros2_ws/build/q_learning_node/install.log --single-version-externally-managed install_data

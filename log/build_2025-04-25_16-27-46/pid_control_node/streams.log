@@ -1,0 +1,24 @@
+[2.799s] Invoking command in '/home/batch9/ros2_ws/src/pid_control_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/pid_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/pid_control_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pid_control_node build --build-base /home/batch9/ros2_ws/build/pid_control_node/build install --record /home/batch9/ros2_ws/build/pid_control_node/install.log --single-version-externally-managed install_data
+[3.408s] running egg_info
+[3.459s] writing ../../build/pid_control_node/pid_control_node.egg-info/PKG-INFO
+[3.460s] writing dependency_links to ../../build/pid_control_node/pid_control_node.egg-info/dependency_links.txt
+[3.460s] writing entry points to ../../build/pid_control_node/pid_control_node.egg-info/entry_points.txt
+[3.460s] writing requirements to ../../build/pid_control_node/pid_control_node.egg-info/requires.txt
+[3.460s] writing top-level names to ../../build/pid_control_node/pid_control_node.egg-info/top_level.txt
+[3.516s] reading manifest file '../../build/pid_control_node/pid_control_node.egg-info/SOURCES.txt'
+[3.517s] writing manifest file '../../build/pid_control_node/pid_control_node.egg-info/SOURCES.txt'
+[3.517s] running build
+[3.517s] running build_py
+[3.517s] copying pid_control_node/pid_control.py -> /home/batch9/ros2_ws/build/pid_control_node/build/lib/pid_control_node
+[3.518s] running install
+[3.545s] running install_lib
+[3.577s] copying /home/batch9/ros2_ws/build/pid_control_node/build/lib/pid_control_node/pid_control.py -> /home/batch9/ros2_ws/install/pid_control_node/lib/python3.12/site-packages/pid_control_node
+[3.578s] byte-compiling /home/batch9/ros2_ws/install/pid_control_node/lib/python3.12/site-packages/pid_control_node/pid_control.py to pid_control.cpython-312.pyc
+[3.584s] running install_data
+[3.584s] running install_egg_info
+[3.613s] removing '/home/batch9/ros2_ws/install/pid_control_node/lib/python3.12/site-packages/pid_control_node-0.0.0-py3.12.egg-info' (and everything under it)
+[3.614s] Copying ../../build/pid_control_node/pid_control_node.egg-info to /home/batch9/ros2_ws/install/pid_control_node/lib/python3.12/site-packages/pid_control_node-0.0.0-py3.12.egg-info
+[3.615s] running install_scripts
+[3.891s] Installing pid_control script to /home/batch9/ros2_ws/install/pid_control_node/lib/pid_control_node
+[3.892s] writing list of installed files to '/home/batch9/ros2_ws/build/pid_control_node/install.log'
+[4.064s] Invoked command in '/home/batch9/ros2_ws/src/pid_control_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/pid_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/pid_control_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pid_control_node build --build-base /home/batch9/ros2_ws/build/pid_control_node/build install --record /home/batch9/ros2_ws/build/pid_control_node/install.log --single-version-externally-managed install_data

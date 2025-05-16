@@ -1,0 +1,2 @@
+[console_scripts]
+pid_control = pid_control_node.pid_control:main

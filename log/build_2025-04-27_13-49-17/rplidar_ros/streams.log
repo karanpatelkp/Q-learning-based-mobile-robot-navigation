@@ -1,0 +1,54 @@
+[0.784s] Invoking command in '/home/batch9/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/home/batch9/ros2_ws/install/q_learning_node:/home/batch9/ros2_ws/install/pid_control_node:/home/batch9/ros2_ws/install/pid:/home/batch9/ros2_ws/install/motor_node:/home/batch9/ros2_ws/install/lidar_obstacle:/home/batch9/ros2_ws/install/encoder_node:/home/batch9/ros2_ws/install/Q-Learning_node:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/batch9/ros2_ws/build/rplidar_ros -- -j4 -l4
+[1.005s] [ 10%] Built target rplidar_client
+[1.011s] [ 52%] Built target rplidar_node
+[1.027s] [100%] Built target rplidar_composition
+[1.059s] Invoked command in '/home/batch9/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/home/batch9/ros2_ws/install/q_learning_node:/home/batch9/ros2_ws/install/pid_control_node:/home/batch9/ros2_ws/install/pid:/home/batch9/ros2_ws/install/motor_node:/home/batch9/ros2_ws/install/lidar_obstacle:/home/batch9/ros2_ws/install/encoder_node:/home/batch9/ros2_ws/install/Q-Learning_node:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/batch9/ros2_ws/build/rplidar_ros -- -j4 -l4
+[1.089s] Invoking command in '/home/batch9/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/home/batch9/ros2_ws/install/q_learning_node:/home/batch9/ros2_ws/install/pid_control_node:/home/batch9/ros2_ws/install/pid:/home/batch9/ros2_ws/install/motor_node:/home/batch9/ros2_ws/install/lidar_obstacle:/home/batch9/ros2_ws/install/encoder_node:/home/batch9/ros2_ws/install/Q-Learning_node:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/batch9/ros2_ws/build/rplidar_ros
+[1.115s] -- Install configuration: ""
+[1.117s] -- Execute custom install script
+[1.118s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[1.119s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[1.120s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[1.121s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[1.121s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[1.122s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[1.122s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[1.123s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[1.124s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[1.125s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[1.125s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[1.126s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[1.126s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[1.127s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[1.127s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[1.128s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[1.128s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[1.129s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[1.129s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[1.130s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[1.130s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[1.130s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[1.131s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[1.131s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[1.133s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[1.133s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[1.136s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[1.136s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[1.136s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[1.136s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[1.136s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[1.136s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[1.138s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[1.138s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[1.138s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[1.140s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[1.140s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[1.141s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[1.141s] -- Symlinking: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[1.166s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[1.167s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.167s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.167s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[1.167s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[1.167s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[1.172s] Invoked command in '/home/batch9/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/home/batch9/ros2_ws/install/q_learning_node:/home/batch9/ros2_ws/install/pid_control_node:/home/batch9/ros2_ws/install/pid:/home/batch9/ros2_ws/install/motor_node:/home/batch9/ros2_ws/install/lidar_obstacle:/home/batch9/ros2_ws/install/encoder_node:/home/batch9/ros2_ws/install/Q-Learning_node:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/batch9/ros2_ws/build/rplidar_ros

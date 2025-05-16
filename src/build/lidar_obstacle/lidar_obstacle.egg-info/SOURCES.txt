@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+lidar_obstacle/__init__.py
+lidar_obstacle/obstacle_detection.py
+lidar_obstacle.egg-info/PKG-INFO
+lidar_obstacle.egg-info/SOURCES.txt
+lidar_obstacle.egg-info/dependency_links.txt
+lidar_obstacle.egg-info/entry_points.txt
+lidar_obstacle.egg-info/requires.txt
+lidar_obstacle.egg-info/top_level.txt
+lidar_obstacle.egg-info/zip-safe
+resource/lidar_obstacle

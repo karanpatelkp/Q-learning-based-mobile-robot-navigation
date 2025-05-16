@@ -1,0 +1,3 @@
+[console_scripts]
+no_pid = pid_control_node.without_pid:main
+pid_control = pid_control_node.pid_control:main

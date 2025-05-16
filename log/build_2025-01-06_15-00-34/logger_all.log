@@ -1,0 +1,255 @@
+[0.169s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.170s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb9dbbbc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb9fa48c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb9fa48c0>>, mixin_verb=('build',))
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.235s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/batch9/ros2_ws'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_distance_angle_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_distance_angle_publisher) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_distance_angle_publisher) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_distance_angle_publisher) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_distance_angle_publisher) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_distance_angle_publisher) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_distance_angle_publisher) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_distance_angle_publisher) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_distance_angle_publisher) by extension 'ros'
+[0.288s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_distance_angle_publisher' with type 'ros.ament_python' and name 'rplidar_distance_angle_publisher'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[0.290s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.322s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/batch9/ros2_ws/install
+[0.324s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/jazzy
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rplidar_distance_angle_publisher' build argument 'cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rplidar_distance_angle_publisher' build argument 'cmake_target' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rplidar_distance_angle_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rplidar_distance_angle_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rplidar_distance_angle_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rplidar_distance_angle_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rplidar_distance_angle_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rplidar_distance_angle_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'rplidar_distance_angle_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.390s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_distance_angle_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/batch9/ros2_ws/build/rplidar_distance_angle_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher', 'merge_install': False, 'path': '/home/batch9/ros2_ws/src/rplidar_distance_angle_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.391s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/batch9/ros2_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/batch9/ros2_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/batch9/ros2_ws/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.392s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/batch9/ros2_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/batch9/ros2_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/batch9/ros2_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.392s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.393s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.393s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/batch9/ros2_ws/src/rplidar_distance_angle_publisher' with build type 'ament_python'
+[0.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_distance_angle_publisher', 'ament_prefix_path')
+[0.401s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/rplidar_distance_angle_publisher/hook/ament_prefix_path.ps1'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/rplidar_distance_angle_publisher/hook/ament_prefix_path.dsv'
+[0.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/rplidar_distance_angle_publisher/hook/ament_prefix_path.sh'
+[0.410s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.411s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.420s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/batch9/ros2_ws/src/rplidar_ros' with build type 'ament_cmake'
+[0.421s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/batch9/ros2_ws/src/rplidar_ros'
+[0.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.421s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.428s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/batch9/ros2_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[0.429s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/batch9/ros2_ws/src/sllidar_ros2'
+[0.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.888s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/batch9/ros2_ws/src/rplidar_distance_angle_publisher'
+[0.888s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.889s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/batch9/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/batch9/ros2_ws/build/rplidar_ros -- -j4 -l4
+[0.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/batch9/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/batch9/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[1.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/batch9/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/batch9/ros2_ws/build/rplidar_ros -- -j4 -l4
+[1.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/batch9/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/batch9/ros2_ws/build/rplidar_ros
+[1.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/batch9/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/batch9/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[1.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/batch9/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/batch9/ros2_ws/build/sllidar_ros2
+[1.292s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[1.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/batch9/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/batch9/ros2_ws/build/rplidar_ros
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_ros' for CMake module files
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_ros' for CMake config files
+[1.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[1.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[1.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[1.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_ros/lib'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_ros/bin'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_ros/lib/python3.12/site-packages'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_ros/bin'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[1.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[1.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/batch9/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[1.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_ros' for CMake module files
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_ros' for CMake config files
+[1.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[1.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[1.330s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_ros/lib'
+[1.331s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_ros/bin'
+[1.331s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[1.331s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_ros/lib/python3.12/site-packages'
+[1.332s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_ros/bin'
+[1.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[1.334s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[1.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[1.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[1.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[1.338s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/batch9/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[1.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/sllidar_ros2' for CMake module files
+[1.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/batch9/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/batch9/ros2_ws/build/sllidar_ros2
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/sllidar_ros2' for CMake config files
+[1.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/sllidar_ros2/lib'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/sllidar_ros2/bin'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/sllidar_ros2/bin'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/batch9/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.359s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/sllidar_ros2' for CMake module files
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/sllidar_ros2' for CMake config files
+[1.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/sllidar_ros2/lib'
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/sllidar_ros2/bin'
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/sllidar_ros2/bin'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/batch9/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[2.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/batch9/ros2_ws/src/rplidar_distance_angle_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rplidar_distance_angle_publisher build --build-base /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/build install --record /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/install.log --single-version-externally-managed install_data
+[3.212s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher' for CMake module files
+[3.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/batch9/ros2_ws/src/rplidar_distance_angle_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rplidar_distance_angle_publisher build --build-base /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/build install --record /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/install.log --single-version-externally-managed install_data
+[3.213s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher' for CMake config files
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/bin'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/pkgconfig/rplidar_distance_angle_publisher.pc'
+[3.217s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages'
+[3.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_distance_angle_publisher', 'pythonpath')
+[3.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/rplidar_distance_angle_publisher/hook/pythonpath.ps1'
+[3.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/rplidar_distance_angle_publisher/hook/pythonpath.dsv'
+[3.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/rplidar_distance_angle_publisher/hook/pythonpath.sh'
+[3.225s] Level 1:colcon.colcon_core.environment:checking '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/bin'
+[3.225s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_distance_angle_publisher)
+[3.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/rplidar_distance_angle_publisher/package.ps1'
+[3.227s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/rplidar_distance_angle_publisher/package.dsv'
+[3.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/rplidar_distance_angle_publisher/package.sh'
+[3.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/rplidar_distance_angle_publisher/package.bash'
+[3.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/rplidar_distance_angle_publisher/package.zsh'
+[3.229s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/colcon-core/packages/rplidar_distance_angle_publisher)
+[3.229s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.230s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.230s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.230s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.238s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.238s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.238s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.273s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.274s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/batch9/ros2_ws/install/local_setup.ps1'
+[3.275s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/batch9/ros2_ws/install/_local_setup_util_ps1.py'
+[3.278s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/batch9/ros2_ws/install/setup.ps1'
+[3.280s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/batch9/ros2_ws/install/local_setup.sh'
+[3.284s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/batch9/ros2_ws/install/_local_setup_util_sh.py'
+[3.285s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/batch9/ros2_ws/install/setup.sh'
+[3.287s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/batch9/ros2_ws/install/local_setup.bash'
+[3.288s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/batch9/ros2_ws/install/setup.bash'
+[3.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/batch9/ros2_ws/install/local_setup.zsh'
+[3.290s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/batch9/ros2_ws/install/setup.zsh'

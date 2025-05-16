@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000277] (-) JobUnselected: {'identifier': 'rplidar_distance_angle_publisher'}
+[0.000495] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.000526] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.001108] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.020211] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.021037] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.021751] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/batch9/ros2_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/batch9/ros2_ws/build/rplidar_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'batch9', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/batch9', 'OLDPWD': '/home/batch9/ros2_ws/src/rplidar_ros/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2304', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/batch9/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'batch9', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'batch9', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/batch9-desktop:@/tmp/.ICE-unix/2277,unix/batch9-desktop:/tmp/.ICE-unix/2277', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/95d6c349_ac0e_40dd_a905_6755585fccce', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.CKYIZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/batch9/ros2_ws/install/sllidar_ros2:/home/batch9/ros2_ws/install/rplidar_ros:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/batch9/ros2_ws/build/rplidar_ros', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/batch9/ros2_ws/install/sllidar_ros2:/home/batch9/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy'}), 'shell': False}
+[0.099785] (-) TimerEvent: {}
+[0.137969] (rplidar_ros) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o\x1b[0m\n'}
+[0.148973] (rplidar_ros) StdoutLine: {'line': b'[ 97%] Built target rplidar_composition\n'}
+[0.149355] (rplidar_ros) StdoutLine: {'line': b'[ 97%] Built target rplidar_node\n'}
+[0.199890] (-) TimerEvent: {}
+[0.300277] (-) TimerEvent: {}
+[0.400626] (-) TimerEvent: {}
+[0.500970] (-) TimerEvent: {}
+[0.601325] (-) TimerEvent: {}
+[0.701684] (-) TimerEvent: {}
+[0.802035] (-) TimerEvent: {}
+[0.902414] (-) TimerEvent: {}
+[1.002770] (-) TimerEvent: {}
+[1.103160] (-) TimerEvent: {}
+[1.203527] (-) TimerEvent: {}
+[1.303879] (-) TimerEvent: {}
+[1.404282] (-) TimerEvent: {}
+[1.504620] (-) TimerEvent: {}
+[1.604994] (-) TimerEvent: {}
+[1.705349] (-) TimerEvent: {}
+[1.805693] (-) TimerEvent: {}
+[1.906051] (-) TimerEvent: {}
+[2.006416] (-) TimerEvent: {}
+[2.106776] (-) TimerEvent: {}
+[2.207121] (-) TimerEvent: {}
+[2.307466] (-) TimerEvent: {}
+[2.407796] (-) TimerEvent: {}
+[2.508138] (-) TimerEvent: {}
+[2.608491] (-) TimerEvent: {}
+[2.708827] (-) TimerEvent: {}
+[2.809155] (-) TimerEvent: {}
+[2.909500] (-) TimerEvent: {}
+[3.009841] (-) TimerEvent: {}
+[3.110172] (-) TimerEvent: {}
+[3.210585] (-) TimerEvent: {}
+[3.310972] (-) TimerEvent: {}
+[3.411317] (-) TimerEvent: {}
+[3.511652] (-) TimerEvent: {}
+[3.612010] (-) TimerEvent: {}
+[3.712373] (-) TimerEvent: {}
+[3.812704] (-) TimerEvent: {}
+[3.913033] (-) TimerEvent: {}
+[4.013383] (-) TimerEvent: {}
+[4.113710] (-) TimerEvent: {}
+[4.214050] (-) TimerEvent: {}
+[4.314402] (-) TimerEvent: {}
+[4.414741] (-) TimerEvent: {}
+[4.515081] (-) TimerEvent: {}
+[4.615443] (-) TimerEvent: {}
+[4.715783] (-) TimerEvent: {}
+[4.816118] (-) TimerEvent: {}
+[4.916514] (-) TimerEvent: {}
+[5.016856] (-) TimerEvent: {}
+[5.117196] (-) TimerEvent: {}
+[5.217538] (-) TimerEvent: {}
+[5.317868] (-) TimerEvent: {}
+[5.418201] (-) TimerEvent: {}
+[5.518550] (-) TimerEvent: {}
+[5.618890] (-) TimerEvent: {}
+[5.719218] (-) TimerEvent: {}
+[5.819573] (-) TimerEvent: {}
+[5.919896] (-) TimerEvent: {}
+[6.020225] (-) TimerEvent: {}
+[6.120560] (-) TimerEvent: {}
+[6.220890] (-) TimerEvent: {}
+[6.321224] (-) TimerEvent: {}
+[6.421568] (-) TimerEvent: {}
+[6.521903] (-) TimerEvent: {}
+[6.622235] (-) TimerEvent: {}
+[6.722586] (-) TimerEvent: {}
+[6.822922] (-) TimerEvent: {}
+[6.923263] (-) TimerEvent: {}
+[7.023592] (-) TimerEvent: {}
+[7.123940] (-) TimerEvent: {}
+[7.224294] (-) TimerEvent: {}
+[7.324681] (-) TimerEvent: {}
+[7.425092] (-) TimerEvent: {}
+[7.525450] (-) TimerEvent: {}
+[7.625816] (-) TimerEvent: {}
+[7.726149] (-) TimerEvent: {}
+[7.826505] (-) TimerEvent: {}
+[7.926874] (-) TimerEvent: {}
+[8.027209] (-) TimerEvent: {}
+[8.127586] (-) TimerEvent: {}
+[8.227916] (-) TimerEvent: {}
+[8.328264] (-) TimerEvent: {}
+[8.428589] (-) TimerEvent: {}
+[8.528918] (-) TimerEvent: {}
+[8.629271] (-) TimerEvent: {}
+[8.729591] (-) TimerEvent: {}
+[8.829907] (-) TimerEvent: {}
+[8.930234] (-) TimerEvent: {}
+[9.030571] (-) TimerEvent: {}
+[9.130895] (-) TimerEvent: {}
+[9.231215] (-) TimerEvent: {}
+[9.331552] (-) TimerEvent: {}
+[9.431874] (-) TimerEvent: {}
+[9.532194] (-) TimerEvent: {}
+[9.632528] (-) TimerEvent: {}
+[9.732837] (-) TimerEvent: {}
+[9.833160] (-) TimerEvent: {}
+[9.933488] (-) TimerEvent: {}
+[10.033812] (-) TimerEvent: {}
+[10.134135] (-) TimerEvent: {}
+[10.234472] (-) TimerEvent: {}
+[10.334804] (-) TimerEvent: {}
+[10.435130] (-) TimerEvent: {}
+[10.535463] (-) TimerEvent: {}
+[10.635794] (-) TimerEvent: {}
+[10.736125] (-) TimerEvent: {}
+[10.836465] (-) TimerEvent: {}
+[10.936784] (-) TimerEvent: {}
+[11.037109] (-) TimerEvent: {}
+[11.137445] (-) TimerEvent: {}
+[11.237774] (-) TimerEvent: {}
+[11.338149] (-) TimerEvent: {}
+[11.438532] (-) TimerEvent: {}
+[11.538884] (-) TimerEvent: {}
+[11.639255] (-) TimerEvent: {}
+[11.739637] (-) TimerEvent: {}
+[11.840072] (-) TimerEvent: {}
+[11.940484] (-) TimerEvent: {}
+[12.040851] (-) TimerEvent: {}
+[12.141237] (-) TimerEvent: {}
+[12.241618] (-) TimerEvent: {}
+[12.342084] (-) TimerEvent: {}
+[12.442594] (-) TimerEvent: {}
+[12.542954] (-) TimerEvent: {}
+[12.643320] (-) TimerEvent: {}
+[12.672401] (rplidar_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rplidar_client\x1b[0m\n'}
+[12.743462] (-) TimerEvent: {}
+[12.843988] (-) TimerEvent: {}
+[12.944737] (-) TimerEvent: {}
+[13.045152] (-) TimerEvent: {}
+[13.145666] (-) TimerEvent: {}
+[13.246076] (-) TimerEvent: {}
+[13.346470] (-) TimerEvent: {}
+[13.446942] (-) TimerEvent: {}
+[13.484475] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_client\n'}
+[13.506712] (rplidar_ros) CommandEnded: {'returncode': 0}
+[13.507527] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[13.525231] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/batch9/ros2_ws/build/rplidar_ros'], 'cwd': '/home/batch9/ros2_ws/build/rplidar_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'batch9', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/batch9', 'OLDPWD': '/home/batch9/ros2_ws/src/rplidar_ros/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2304', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/batch9/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'batch9', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'batch9', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/batch9-desktop:@/tmp/.ICE-unix/2277,unix/batch9-desktop:/tmp/.ICE-unix/2277', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/95d6c349_ac0e_40dd_a905_6755585fccce', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.CKYIZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/batch9/ros2_ws/install/sllidar_ros2:/home/batch9/ros2_ws/install/rplidar_ros:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/batch9/ros2_ws/build/rplidar_ros', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/batch9/ros2_ws/install/sllidar_ros2:/home/batch9/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy'}), 'shell': False}
+[13.538518] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.539166] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.539972] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[13.540119] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[13.540263] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[13.540417] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[13.540553] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[13.540687] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[13.540817] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[13.540949] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[13.541082] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[13.541213] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[13.541361] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[13.541495] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[13.541631] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[13.541765] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[13.541898] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[13.542030] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[13.542161] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[13.542304] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[13.542444] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[13.542576] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[13.542715] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[13.542872] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[13.543036] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[13.543169] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[13.543451] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[13.543804] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[13.543996] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[13.544184] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[13.544837] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[13.545078] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[13.545414] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[13.545622] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[13.545825] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[13.546019] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[13.546213] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[13.546431] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[13.546628] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[13.546809] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[13.546960] (-) TimerEvent: {}
+[13.547112] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[13.568478] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[13.568760] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.568889] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.569001] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[13.569100] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[13.569317] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/batch9/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[13.572252] (rplidar_ros) CommandEnded: {'returncode': 0}
+[13.604764] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[13.608235] (-) EventReactorShutdown: {}

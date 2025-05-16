@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/q_learning_node/q_learning_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/q_learning_node/q_learning_node.egg-info/dependency_links.txt
+writing entry points to ../../build/q_learning_node/q_learning_node.egg-info/entry_points.txt
+writing requirements to ../../build/q_learning_node/q_learning_node.egg-info/requires.txt
+writing top-level names to ../../build/q_learning_node/q_learning_node.egg-info/top_level.txt
+reading manifest file '../../build/q_learning_node/q_learning_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/q_learning_node/q_learning_node.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying resource/q_learning_node -> /home/batch9/ros2_ws/install/q_learning_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/batch9/ros2_ws/install/q_learning_node/share/q_learning_node
+running install_egg_info
+Copying ../../build/q_learning_node/q_learning_node.egg-info to /home/batch9/ros2_ws/install/q_learning_node/lib/python3.12/site-packages/q_learning_node-0.0.0-py3.12.egg-info
+running install_scripts
+Installing q_learning script to /home/batch9/ros2_ws/install/q_learning_node/lib/q_learning_node
+writing list of installed files to '/home/batch9/ros2_ws/build/q_learning_node/install.log'

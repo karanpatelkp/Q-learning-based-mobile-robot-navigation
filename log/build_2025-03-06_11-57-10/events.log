@@ -1,0 +1,35 @@
+[0.000000] (-) TimerEvent: {}
+[0.000240] (Q-Learning_node) JobQueued: {'identifier': 'Q-Learning_node', 'dependencies': OrderedDict()}
+[0.000285] (encoder_node) JobQueued: {'identifier': 'encoder_node', 'dependencies': OrderedDict()}
+[0.000308] (lidar_obstacle) JobQueued: {'identifier': 'lidar_obstacle', 'dependencies': OrderedDict()}
+[0.000331] (motor_node) JobQueued: {'identifier': 'motor_node', 'dependencies': OrderedDict()}
+[0.000350] (my-test-package) JobQueued: {'identifier': 'my-test-package', 'dependencies': OrderedDict()}
+[0.000368] (pid_control_node) JobQueued: {'identifier': 'pid_control_node', 'dependencies': OrderedDict()}
+[0.000386] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.000403] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.002185] (Q-Learning_node) JobStarted: {'identifier': 'Q-Learning_node'}
+[0.019470] (encoder_node) JobStarted: {'identifier': 'encoder_node'}
+[0.027020] (lidar_obstacle) JobStarted: {'identifier': 'lidar_obstacle'}
+[0.035721] (motor_node) JobStarted: {'identifier': 'motor_node'}
+[0.099644] (-) TimerEvent: {}
+[0.200012] (-) TimerEvent: {}
+[0.300335] (-) TimerEvent: {}
+[0.400641] (-) TimerEvent: {}
+[0.494261] (Q-Learning_node) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n                                             ^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n             ^^^^^^^^^^^^^^^\n  File "/usr/lib/python3.12/subprocess.py", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[0.495318] (Q-Learning_node) JobEnded: {'identifier': 'Q-Learning_node', 'rc': 1}
+[0.500800] (-) TimerEvent: {}
+[0.601204] (-) TimerEvent: {}
+[0.701522] (-) TimerEvent: {}
+[0.801864] (-) TimerEvent: {}
+[0.902229] (-) TimerEvent: {}
+[1.002589] (-) TimerEvent: {}
+[1.102918] (-) TimerEvent: {}
+[1.204121] (-) TimerEvent: {}
+[1.213107] (encoder_node) JobEnded: {'identifier': 'encoder_node', 'rc': 'SIGINT'}
+[1.214293] (lidar_obstacle) JobEnded: {'identifier': 'lidar_obstacle', 'rc': 'SIGINT'}
+[1.214846] (motor_node) JobEnded: {'identifier': 'motor_node', 'rc': 'SIGINT'}
+[1.225253] (my-test-package) JobSkipped: {'identifier': 'my-test-package'}
+[1.225511] (pid_control_node) JobSkipped: {'identifier': 'pid_control_node'}
+[1.225642] (rplidar_ros) JobSkipped: {'identifier': 'rplidar_ros'}
+[1.225726] (sllidar_ros2) JobSkipped: {'identifier': 'sllidar_ros2'}
+[1.225825] (-) EventReactorShutdown: {}

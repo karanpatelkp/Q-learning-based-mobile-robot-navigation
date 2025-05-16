@@ -1,0 +1,5 @@
+  File "/home/batch9/ros2_ws/install/lidar_obstacle/lib/python3.12/site-packages/lidar_obstacle/obstacle_detection.py", line 39
+    else if degree>-5 and degree<5 and scan.ranges[i]>=0.5:
+         ^^
+SyntaxError: expected ':'
+

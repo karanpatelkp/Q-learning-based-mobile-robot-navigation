@@ -1,0 +1,21 @@
+[2.240s] Invoking command in '/home/batch9/ros2_ws/src/encoder_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/encoder_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/encoder_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_node build --build-base /home/batch9/ros2_ws/build/encoder_node/build install --record /home/batch9/ros2_ws/build/encoder_node/install.log --single-version-externally-managed install_data
+[2.696s] running egg_info
+[2.726s] writing ../../build/encoder_node/encoder_node.egg-info/PKG-INFO
+[2.727s] writing dependency_links to ../../build/encoder_node/encoder_node.egg-info/dependency_links.txt
+[2.730s] writing entry points to ../../build/encoder_node/encoder_node.egg-info/entry_points.txt
+[2.730s] writing requirements to ../../build/encoder_node/encoder_node.egg-info/requires.txt
+[2.731s] writing top-level names to ../../build/encoder_node/encoder_node.egg-info/top_level.txt
+[2.786s] reading manifest file '../../build/encoder_node/encoder_node.egg-info/SOURCES.txt'
+[2.787s] writing manifest file '../../build/encoder_node/encoder_node.egg-info/SOURCES.txt'
+[2.787s] running build
+[2.788s] running build_py
+[2.788s] running install
+[2.798s] running install_lib
+[2.831s] running install_data
+[2.831s] running install_egg_info
+[2.860s] removing '/home/batch9/ros2_ws/install/encoder_node/lib/python3.12/site-packages/encoder_node-0.0.0-py3.12.egg-info' (and everything under it)
+[2.861s] Copying ../../build/encoder_node/encoder_node.egg-info to /home/batch9/ros2_ws/install/encoder_node/lib/python3.12/site-packages/encoder_node-0.0.0-py3.12.egg-info
+[2.862s] running install_scripts
+[3.066s] Installing encoder_pub script to /home/batch9/ros2_ws/install/encoder_node/lib/encoder_node
+[3.067s] writing list of installed files to '/home/batch9/ros2_ws/build/encoder_node/install.log'
+[3.205s] Invoked command in '/home/batch9/ros2_ws/src/encoder_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/encoder_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/encoder_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_node build --build-base /home/batch9/ros2_ws/build/encoder_node/build install --record /home/batch9/ros2_ws/build/encoder_node/install.log --single-version-externally-managed install_data

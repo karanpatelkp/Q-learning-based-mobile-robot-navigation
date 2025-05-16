@@ -1,0 +1,5 @@
+  File "/home/batch9/ros2_ws/install/pid_control_node/lib/python3.12/site-packages/pid_control_node/pid_control.py", line 102
+    self.pos[2]=
+                ^
+SyntaxError: invalid syntax
+

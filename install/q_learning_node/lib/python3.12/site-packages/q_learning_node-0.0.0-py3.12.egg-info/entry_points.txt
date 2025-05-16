@@ -1,0 +1,2 @@
+[console_scripts]
+q_learning = q_learning_node.q_learning:main

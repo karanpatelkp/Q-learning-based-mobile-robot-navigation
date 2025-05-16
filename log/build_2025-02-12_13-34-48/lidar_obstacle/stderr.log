@@ -1,0 +1,5 @@
+  File "/home/batch9/ros2_ws/install/lidar_obstacle/lib/python3.12/site-packages/lidar_obstacle/obstacle_detection.py", line 38
+    if t=0:
+       ^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+

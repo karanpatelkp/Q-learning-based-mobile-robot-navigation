@@ -1,0 +1,6 @@
+source;share/rplidar_distance_angle_publisher/hook/pythonpath.ps1
+source;share/rplidar_distance_angle_publisher/hook/pythonpath.dsv
+source;share/rplidar_distance_angle_publisher/hook/pythonpath.sh
+source;share/rplidar_distance_angle_publisher/hook/ament_prefix_path.ps1
+source;share/rplidar_distance_angle_publisher/hook/ament_prefix_path.dsv
+source;share/rplidar_distance_angle_publisher/hook/ament_prefix_path.sh

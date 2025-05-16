@@ -1,0 +1,67 @@
+[0.439s] Invoking command in '/home/batch9/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/home/batch9/ros2_ws/install/q_learning_node:/home/batch9/ros2_ws/install/pid_control_node:/home/batch9/ros2_ws/install/motor_node:/home/batch9/ros2_ws/install/lidar_obstacle:/home/batch9/ros2_ws/install/encoder_node:/home/batch9/ros2_ws/install/Q-Learning_node:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/batch9/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[0.522s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.209s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.223s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.271s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.292s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.324s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.473s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.474s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.610s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.728s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.828s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[2.186s] -- Configuring done (1.7s)
+[2.259s] -- Generating done (0.1s)
+[2.273s] -- Build files have been written to: /home/batch9/ros2_ws/build/sllidar_ros2
+[2.406s] [ 10%] Built target sllidar_client
+[2.473s] [100%] Built target sllidar_node
+[2.522s] Invoked command in '/home/batch9/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/home/batch9/ros2_ws/install/q_learning_node:/home/batch9/ros2_ws/install/pid_control_node:/home/batch9/ros2_ws/install/motor_node:/home/batch9/ros2_ws/install/lidar_obstacle:/home/batch9/ros2_ws/install/encoder_node:/home/batch9/ros2_ws/install/Q-Learning_node:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/batch9/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[2.573s] Invoking command in '/home/batch9/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/home/batch9/ros2_ws/install/q_learning_node:/home/batch9/ros2_ws/install/pid_control_node:/home/batch9/ros2_ws/install/motor_node:/home/batch9/ros2_ws/install/lidar_obstacle:/home/batch9/ros2_ws/install/encoder_node:/home/batch9/ros2_ws/install/Q-Learning_node:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/batch9/ros2_ws/build/sllidar_ros2
+[2.606s] -- Install configuration: ""
+[2.607s] -- Execute custom install script
+[2.610s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[2.611s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[2.611s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[2.612s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[2.613s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[2.614s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[2.614s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[2.615s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[2.616s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[2.620s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[2.621s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[2.621s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[2.622s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[2.623s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[2.630s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[2.633s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[2.633s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[2.635s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[2.636s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[2.636s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[2.636s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[2.638s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[2.639s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[2.639s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[2.640s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[2.642s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[2.643s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[2.643s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[2.644s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[2.645s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[2.646s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[2.647s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[2.647s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[2.649s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[2.649s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[2.650s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[2.651s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[2.653s] -- Symlinking: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[2.696s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[2.699s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.702s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.703s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[2.704s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[2.704s] -- Up-to-date symlink: /home/batch9/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[2.714s] Invoked command in '/home/batch9/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/home/batch9/ros2_ws/install/q_learning_node:/home/batch9/ros2_ws/install/pid_control_node:/home/batch9/ros2_ws/install/motor_node:/home/batch9/ros2_ws/install/lidar_obstacle:/home/batch9/ros2_ws/install/encoder_node:/home/batch9/ros2_ws/install/Q-Learning_node:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/batch9/ros2_ws/build/sllidar_ros2

@@ -1,0 +1,30 @@
+[2.814s] Invoking command in '/home/batch9/ros2_ws/build/motor_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/motor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/motor_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/batch9/ros2_ws/build/motor_node/build
+[3.367s] running develop
+[4.049s] Invoked command in '/home/batch9/ros2_ws/build/motor_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/motor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/motor_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/batch9/ros2_ws/build/motor_node/build
+[4.050s] Invoking command in '/home/batch9/ros2_ws/src/motor_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/motor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/motor_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_node build --build-base /home/batch9/ros2_ws/build/motor_node/build install --record /home/batch9/ros2_ws/build/motor_node/install.log --single-version-externally-managed install_data --force
+[4.579s] running egg_info
+[4.619s] writing ../../build/motor_node/motor_node.egg-info/PKG-INFO
+[4.620s] writing dependency_links to ../../build/motor_node/motor_node.egg-info/dependency_links.txt
+[4.622s] writing entry points to ../../build/motor_node/motor_node.egg-info/entry_points.txt
+[4.623s] writing requirements to ../../build/motor_node/motor_node.egg-info/requires.txt
+[4.624s] writing top-level names to ../../build/motor_node/motor_node.egg-info/top_level.txt
+[4.723s] reading manifest file '../../build/motor_node/motor_node.egg-info/SOURCES.txt'
+[4.728s] writing manifest file '../../build/motor_node/motor_node.egg-info/SOURCES.txt'
+[4.729s] running build
+[4.730s] running build_py
+[4.733s] running install
+[4.745s] running install_lib
+[4.788s] creating /home/batch9/ros2_ws/install/motor_node/lib/python3.12/site-packages/motor_node
+[4.790s] copying /home/batch9/ros2_ws/build/motor_node/build/lib/motor_node/__init__.py -> /home/batch9/ros2_ws/install/motor_node/lib/python3.12/site-packages/motor_node
+[4.790s] copying /home/batch9/ros2_ws/build/motor_node/build/lib/motor_node/motor_sub.py -> /home/batch9/ros2_ws/install/motor_node/lib/python3.12/site-packages/motor_node
+[4.794s] byte-compiling /home/batch9/ros2_ws/install/motor_node/lib/python3.12/site-packages/motor_node/__init__.py to __init__.cpython-312.pyc
+[4.796s] byte-compiling /home/batch9/ros2_ws/install/motor_node/lib/python3.12/site-packages/motor_node/motor_sub.py to motor_sub.cpython-312.pyc
+[4.798s] running install_data
+[4.798s] copying resource/motor_node -> /home/batch9/ros2_ws/install/motor_node/share/ament_index/resource_index/packages
+[4.799s] copying package.xml -> /home/batch9/ros2_ws/install/motor_node/share/motor_node
+[4.800s] running install_egg_info
+[4.841s] Copying ../../build/motor_node/motor_node.egg-info to /home/batch9/ros2_ws/install/motor_node/lib/python3.12/site-packages/motor_node-0.0.0-py3.12.egg-info
+[4.845s] running install_scripts
+[5.343s] Installing motor_sub script to /home/batch9/ros2_ws/install/motor_node/lib/motor_node
+[5.344s] writing list of installed files to '/home/batch9/ros2_ws/build/motor_node/install.log'
+[5.491s] Invoked command in '/home/batch9/ros2_ws/src/motor_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/motor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/motor_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_node build --build-base /home/batch9/ros2_ws/build/motor_node/build install --record /home/batch9/ros2_ws/build/motor_node/install.log --single-version-externally-managed install_data --force

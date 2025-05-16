@@ -1,0 +1,35 @@
+[0.027s] Invoking command in '/home/batch9/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/batch9/ros2_ws/build/rplidar_ros -- -j4 -l4
+[0.097s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.498s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.537s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.596s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.617s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.644s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.802s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.810s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.941s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.066s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.171s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.385s] -- Configuring done (1.3s)
+[1.395s] [31mCMake Error at CMakeLists.txt:57 (add_executable):
+[1.395s]   Cannot find source file:
+[1.395s] 
+[1.395s]     src/rplidar_node.cpp
+[1.395s] 
+[1.395s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.395s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.395s]   .f95 .f03 .hip .ispc
+[1.396s] 
+[1.396s] [0m
+[1.407s] [31mCMake Error at CMakeLists.txt:57 (add_executable):
+[1.407s]   No SOURCES given to target: rplidar_node
+[1.407s] 
+[1.407s] [0m
+[1.408s] [31mCMake Error at CMakeLists.txt:65 (add_executable):
+[1.408s]   No SOURCES given to target: rplidar_composition
+[1.408s] 
+[1.408s] [0m
+[1.408s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.421s] gmake: *** [Makefile:805: cmake_check_build_system] Error 1
+[1.424s] Invoked command in '/home/batch9/ros2_ws/build/rplidar_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/batch9/ros2_ws/build/rplidar_ros -- -j4 -l4

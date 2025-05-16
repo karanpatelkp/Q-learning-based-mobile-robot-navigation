@@ -1,0 +1,24 @@
+[1.431s] Invoking command in '/home/batch9/ros2_ws/src/build/q_learning_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/src/build/q_learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/src/install/q_learning_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/batch9/ros2_ws/src/build/q_learning_node/build --no-deps symlink_data
+[2.043s] running develop
+[2.373s] running egg_info
+[2.373s] creating q_learning_node.egg-info
+[2.401s] writing q_learning_node.egg-info/PKG-INFO
+[2.401s] writing dependency_links to q_learning_node.egg-info/dependency_links.txt
+[2.401s] writing entry points to q_learning_node.egg-info/entry_points.txt
+[2.401s] writing requirements to q_learning_node.egg-info/requires.txt
+[2.403s] writing top-level names to q_learning_node.egg-info/top_level.txt
+[2.403s] writing manifest file 'q_learning_node.egg-info/SOURCES.txt'
+[2.462s] reading manifest file 'q_learning_node.egg-info/SOURCES.txt'
+[2.462s] writing manifest file 'q_learning_node.egg-info/SOURCES.txt'
+[2.494s] running build_ext
+[2.494s] Creating /home/batch9/ros2_ws/src/install/q_learning_node/lib/python3.12/site-packages/q-learning-node.egg-link (link to .)
+[2.495s] Installing q_learning script to /home/batch9/ros2_ws/src/install/q_learning_node/lib/q_learning_node
+[2.495s] 
+[2.495s] Installed /home/batch9/ros2_ws/src/build/q_learning_node
+[2.496s] running symlink_data
+[2.496s] creating /home/batch9/ros2_ws/src/install/q_learning_node/share/ament_index
+[2.496s] creating /home/batch9/ros2_ws/src/install/q_learning_node/share/ament_index/resource_index
+[2.496s] creating /home/batch9/ros2_ws/src/install/q_learning_node/share/ament_index/resource_index/packages
+[2.496s] symbolically linking /home/batch9/ros2_ws/src/build/q_learning_node/resource/q_learning_node -> /home/batch9/ros2_ws/src/install/q_learning_node/share/ament_index/resource_index/packages
+[2.496s] symbolically linking /home/batch9/ros2_ws/src/build/q_learning_node/package.xml -> /home/batch9/ros2_ws/src/install/q_learning_node/share/q_learning_node
+[2.606s] Invoked command in '/home/batch9/ros2_ws/src/build/q_learning_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/src/build/q_learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/src/install/q_learning_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/batch9/ros2_ws/src/build/q_learning_node/build --no-deps symlink_data

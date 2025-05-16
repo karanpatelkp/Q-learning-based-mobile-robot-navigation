@@ -1,0 +1,21 @@
+[4.216s] Invoking command in '/home/batch9/ros2_ws/src/lidar_obstacle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/batch9/ros2_ws/build/lidar_obstacle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/lidar_obstacle/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_obstacle build --build-base /home/batch9/ros2_ws/build/lidar_obstacle/build install --record /home/batch9/ros2_ws/build/lidar_obstacle/install.log --single-version-externally-managed install_data
+[5.148s] running egg_info
+[5.220s] writing ../../build/lidar_obstacle/lidar_obstacle.egg-info/PKG-INFO
+[5.221s] writing dependency_links to ../../build/lidar_obstacle/lidar_obstacle.egg-info/dependency_links.txt
+[5.221s] writing entry points to ../../build/lidar_obstacle/lidar_obstacle.egg-info/entry_points.txt
+[5.222s] writing requirements to ../../build/lidar_obstacle/lidar_obstacle.egg-info/requires.txt
+[5.222s] writing top-level names to ../../build/lidar_obstacle/lidar_obstacle.egg-info/top_level.txt
+[5.294s] reading manifest file '../../build/lidar_obstacle/lidar_obstacle.egg-info/SOURCES.txt'
+[5.294s] writing manifest file '../../build/lidar_obstacle/lidar_obstacle.egg-info/SOURCES.txt'
+[5.299s] running build
+[5.301s] running build_py
+[5.301s] running install
+[5.321s] running install_lib
+[5.362s] running install_data
+[5.364s] running install_egg_info
+[5.410s] removing '/home/batch9/ros2_ws/install/lidar_obstacle/lib/python3.12/site-packages/lidar_obstacle-0.0.0-py3.12.egg-info' (and everything under it)
+[5.411s] Copying ../../build/lidar_obstacle/lidar_obstacle.egg-info to /home/batch9/ros2_ws/install/lidar_obstacle/lib/python3.12/site-packages/lidar_obstacle-0.0.0-py3.12.egg-info
+[5.416s] running install_scripts
+[5.932s] Installing obstacle_detection script to /home/batch9/ros2_ws/install/lidar_obstacle/lib/lidar_obstacle
+[5.932s] writing list of installed files to '/home/batch9/ros2_ws/build/lidar_obstacle/install.log'
+[6.498s] Invoked command in '/home/batch9/ros2_ws/src/lidar_obstacle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/batch9/ros2_ws/build/lidar_obstacle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/lidar_obstacle/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_obstacle build --build-base /home/batch9/ros2_ws/build/lidar_obstacle/build install --record /home/batch9/ros2_ws/build/lidar_obstacle/install.log --single-version-externally-managed install_data

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating q_learning_node.egg-info
+writing q_learning_node.egg-info/PKG-INFO
+writing dependency_links to q_learning_node.egg-info/dependency_links.txt
+writing entry points to q_learning_node.egg-info/entry_points.txt
+writing requirements to q_learning_node.egg-info/requires.txt
+writing top-level names to q_learning_node.egg-info/top_level.txt
+writing manifest file 'q_learning_node.egg-info/SOURCES.txt'
+reading manifest file 'q_learning_node.egg-info/SOURCES.txt'
+writing manifest file 'q_learning_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/batch9/ros2_ws/src/install/q_learning_node/lib/python3.12/site-packages/q-learning-node.egg-link (link to .)
+Installing q_learning script to /home/batch9/ros2_ws/src/install/q_learning_node/lib/q_learning_node
+
+Installed /home/batch9/ros2_ws/src/build/q_learning_node
+running symlink_data
+creating /home/batch9/ros2_ws/src/install/q_learning_node/share/ament_index
+creating /home/batch9/ros2_ws/src/install/q_learning_node/share/ament_index/resource_index
+creating /home/batch9/ros2_ws/src/install/q_learning_node/share/ament_index/resource_index/packages
+symbolically linking /home/batch9/ros2_ws/src/build/q_learning_node/resource/q_learning_node -> /home/batch9/ros2_ws/src/install/q_learning_node/share/ament_index/resource_index/packages
+symbolically linking /home/batch9/ros2_ws/src/build/q_learning_node/package.xml -> /home/batch9/ros2_ws/src/install/q_learning_node/share/q_learning_node

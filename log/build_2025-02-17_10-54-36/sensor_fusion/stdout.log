@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/sensor_fusion/sensor_fusion.egg-info
+writing ../../build/sensor_fusion/sensor_fusion.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_fusion/sensor_fusion.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_fusion/sensor_fusion.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_fusion/sensor_fusion.egg-info/requires.txt
+writing top-level names to ../../build/sensor_fusion/sensor_fusion.egg-info/top_level.txt
+writing manifest file '../../build/sensor_fusion/sensor_fusion.egg-info/SOURCES.txt'
+reading manifest file '../../build/sensor_fusion/sensor_fusion.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_fusion/sensor_fusion.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/batch9/ros2_ws/build/sensor_fusion/build
+creating /home/batch9/ros2_ws/build/sensor_fusion/build/lib
+creating /home/batch9/ros2_ws/build/sensor_fusion/build/lib/sensor_fusion
+copying sensor_fusion/__init__.py -> /home/batch9/ros2_ws/build/sensor_fusion/build/lib/sensor_fusion
+copying sensor_fusion/sensor_fusion.py -> /home/batch9/ros2_ws/build/sensor_fusion/build/lib/sensor_fusion
+running install
+running install_lib
+creating /home/batch9/ros2_ws/install/sensor_fusion/lib/python3.12/site-packages/sensor_fusion
+copying /home/batch9/ros2_ws/build/sensor_fusion/build/lib/sensor_fusion/__init__.py -> /home/batch9/ros2_ws/install/sensor_fusion/lib/python3.12/site-packages/sensor_fusion
+copying /home/batch9/ros2_ws/build/sensor_fusion/build/lib/sensor_fusion/sensor_fusion.py -> /home/batch9/ros2_ws/install/sensor_fusion/lib/python3.12/site-packages/sensor_fusion
+byte-compiling /home/batch9/ros2_ws/install/sensor_fusion/lib/python3.12/site-packages/sensor_fusion/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/batch9/ros2_ws/install/sensor_fusion/lib/python3.12/site-packages/sensor_fusion/sensor_fusion.py to sensor_fusion.cpython-312.pyc
+running install_data
+creating /home/batch9/ros2_ws/install/sensor_fusion/share/ament_index
+creating /home/batch9/ros2_ws/install/sensor_fusion/share/ament_index/resource_index
+creating /home/batch9/ros2_ws/install/sensor_fusion/share/ament_index/resource_index/packages
+copying resource/sensor_fusion -> /home/batch9/ros2_ws/install/sensor_fusion/share/ament_index/resource_index/packages
+copying package.xml -> /home/batch9/ros2_ws/install/sensor_fusion/share/sensor_fusion
+running install_egg_info
+Copying ../../build/sensor_fusion/sensor_fusion.egg-info to /home/batch9/ros2_ws/install/sensor_fusion/lib/python3.12/site-packages/sensor_fusion-0.0.0-py3.12.egg-info
+running install_scripts
+Installing sensor_fusion script to /home/batch9/ros2_ws/install/sensor_fusion/lib/sensor_fusion
+writing list of installed files to '/home/batch9/ros2_ws/build/sensor_fusion/install.log'

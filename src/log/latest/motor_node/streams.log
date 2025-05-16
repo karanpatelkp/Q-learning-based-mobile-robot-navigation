@@ -1,0 +1,24 @@
+[2.860s] Invoking command in '/home/batch9/ros2_ws/src/build/motor_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/src/build/motor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/src/install/motor_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/batch9/ros2_ws/src/build/motor_node/build --no-deps symlink_data
+[3.452s] running develop
+[3.755s] running egg_info
+[3.755s] creating motor_node.egg-info
+[3.783s] writing motor_node.egg-info/PKG-INFO
+[3.783s] writing dependency_links to motor_node.egg-info/dependency_links.txt
+[3.783s] writing entry points to motor_node.egg-info/entry_points.txt
+[3.783s] writing requirements to motor_node.egg-info/requires.txt
+[3.784s] writing top-level names to motor_node.egg-info/top_level.txt
+[3.784s] writing manifest file 'motor_node.egg-info/SOURCES.txt'
+[3.852s] reading manifest file 'motor_node.egg-info/SOURCES.txt'
+[3.852s] writing manifest file 'motor_node.egg-info/SOURCES.txt'
+[3.890s] running build_ext
+[3.890s] Creating /home/batch9/ros2_ws/src/install/motor_node/lib/python3.12/site-packages/motor-node.egg-link (link to .)
+[3.890s] Installing motor_sub script to /home/batch9/ros2_ws/src/install/motor_node/lib/motor_node
+[3.890s] 
+[3.890s] Installed /home/batch9/ros2_ws/src/build/motor_node
+[3.891s] running symlink_data
+[3.891s] creating /home/batch9/ros2_ws/src/install/motor_node/share/ament_index
+[3.891s] creating /home/batch9/ros2_ws/src/install/motor_node/share/ament_index/resource_index
+[3.891s] creating /home/batch9/ros2_ws/src/install/motor_node/share/ament_index/resource_index/packages
+[3.891s] symbolically linking /home/batch9/ros2_ws/src/build/motor_node/resource/motor_node -> /home/batch9/ros2_ws/src/install/motor_node/share/ament_index/resource_index/packages
+[3.891s] symbolically linking /home/batch9/ros2_ws/src/build/motor_node/package.xml -> /home/batch9/ros2_ws/src/install/motor_node/share/motor_node
+[4.118s] Invoked command in '/home/batch9/ros2_ws/src/build/motor_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/src/build/motor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/src/install/motor_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/batch9/ros2_ws/src/build/motor_node/build --no-deps symlink_data

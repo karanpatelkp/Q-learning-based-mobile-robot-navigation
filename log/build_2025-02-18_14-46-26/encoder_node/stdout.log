@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing encoder_node.egg-info/PKG-INFO
+writing dependency_links to encoder_node.egg-info/dependency_links.txt
+writing entry points to encoder_node.egg-info/entry_points.txt
+writing requirements to encoder_node.egg-info/requires.txt
+writing top-level names to encoder_node.egg-info/top_level.txt
+reading manifest file 'encoder_node.egg-info/SOURCES.txt'
+writing manifest file 'encoder_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/batch9/ros2_ws/install/encoder_node/lib/python3.12/site-packages/encoder-node.egg-link (link to .)
+Installing encoder_pub script to /home/batch9/ros2_ws/install/encoder_node/lib/encoder_node
+
+Installed /home/batch9/ros2_ws/build/encoder_node
+running symlink_data

@@ -1,0 +1,37 @@
+[1.249s] Invoking command in '/home/batch9/ros2_ws/src/sensor_fusion': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/sensor_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/sensor_fusion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_fusion build --build-base /home/batch9/ros2_ws/build/sensor_fusion/build install --record /home/batch9/ros2_ws/build/sensor_fusion/install.log --single-version-externally-managed install_data
+[1.619s] running egg_info
+[1.619s] creating ../../build/sensor_fusion/sensor_fusion.egg-info
+[1.644s] writing ../../build/sensor_fusion/sensor_fusion.egg-info/PKG-INFO
+[1.645s] writing dependency_links to ../../build/sensor_fusion/sensor_fusion.egg-info/dependency_links.txt
+[1.645s] writing entry points to ../../build/sensor_fusion/sensor_fusion.egg-info/entry_points.txt
+[1.645s] writing requirements to ../../build/sensor_fusion/sensor_fusion.egg-info/requires.txt
+[1.645s] writing top-level names to ../../build/sensor_fusion/sensor_fusion.egg-info/top_level.txt
+[1.645s] writing manifest file '../../build/sensor_fusion/sensor_fusion.egg-info/SOURCES.txt'
+[1.698s] reading manifest file '../../build/sensor_fusion/sensor_fusion.egg-info/SOURCES.txt'
+[1.699s] writing manifest file '../../build/sensor_fusion/sensor_fusion.egg-info/SOURCES.txt'
+[1.699s] running build
+[1.699s] running build_py
+[1.699s] creating /home/batch9/ros2_ws/build/sensor_fusion/build
+[1.699s] creating /home/batch9/ros2_ws/build/sensor_fusion/build/lib
+[1.700s] creating /home/batch9/ros2_ws/build/sensor_fusion/build/lib/sensor_fusion
+[1.700s] copying sensor_fusion/__init__.py -> /home/batch9/ros2_ws/build/sensor_fusion/build/lib/sensor_fusion
+[1.700s] copying sensor_fusion/sensor_fusion.py -> /home/batch9/ros2_ws/build/sensor_fusion/build/lib/sensor_fusion
+[1.700s] running install
+[1.711s] running install_lib
+[1.738s] creating /home/batch9/ros2_ws/install/sensor_fusion/lib/python3.12/site-packages/sensor_fusion
+[1.738s] copying /home/batch9/ros2_ws/build/sensor_fusion/build/lib/sensor_fusion/__init__.py -> /home/batch9/ros2_ws/install/sensor_fusion/lib/python3.12/site-packages/sensor_fusion
+[1.738s] copying /home/batch9/ros2_ws/build/sensor_fusion/build/lib/sensor_fusion/sensor_fusion.py -> /home/batch9/ros2_ws/install/sensor_fusion/lib/python3.12/site-packages/sensor_fusion
+[1.739s] byte-compiling /home/batch9/ros2_ws/install/sensor_fusion/lib/python3.12/site-packages/sensor_fusion/__init__.py to __init__.cpython-312.pyc
+[1.739s] byte-compiling /home/batch9/ros2_ws/install/sensor_fusion/lib/python3.12/site-packages/sensor_fusion/sensor_fusion.py to sensor_fusion.cpython-312.pyc
+[1.739s] running install_data
+[1.739s] creating /home/batch9/ros2_ws/install/sensor_fusion/share/ament_index
+[1.739s] creating /home/batch9/ros2_ws/install/sensor_fusion/share/ament_index/resource_index
+[1.739s] creating /home/batch9/ros2_ws/install/sensor_fusion/share/ament_index/resource_index/packages
+[1.740s] copying resource/sensor_fusion -> /home/batch9/ros2_ws/install/sensor_fusion/share/ament_index/resource_index/packages
+[1.740s] copying package.xml -> /home/batch9/ros2_ws/install/sensor_fusion/share/sensor_fusion
+[1.740s] running install_egg_info
+[1.768s] Copying ../../build/sensor_fusion/sensor_fusion.egg-info to /home/batch9/ros2_ws/install/sensor_fusion/lib/python3.12/site-packages/sensor_fusion-0.0.0-py3.12.egg-info
+[1.769s] running install_scripts
+[1.957s] Installing sensor_fusion script to /home/batch9/ros2_ws/install/sensor_fusion/lib/sensor_fusion
+[1.957s] writing list of installed files to '/home/batch9/ros2_ws/build/sensor_fusion/install.log'
+[2.043s] Invoked command in '/home/batch9/ros2_ws/src/sensor_fusion' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/sensor_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/sensor_fusion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_fusion build --build-base /home/batch9/ros2_ws/build/sensor_fusion/build install --record /home/batch9/ros2_ws/build/sensor_fusion/install.log --single-version-externally-managed install_data

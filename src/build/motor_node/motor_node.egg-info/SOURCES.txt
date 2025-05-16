@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+motor_node/__init__.py
+motor_node/motor_sub.py
+motor_node.egg-info/PKG-INFO
+motor_node.egg-info/SOURCES.txt
+motor_node.egg-info/dependency_links.txt
+motor_node.egg-info/entry_points.txt
+motor_node.egg-info/requires.txt
+motor_node.egg-info/top_level.txt
+motor_node.egg-info/zip-safe
+resource/motor_node

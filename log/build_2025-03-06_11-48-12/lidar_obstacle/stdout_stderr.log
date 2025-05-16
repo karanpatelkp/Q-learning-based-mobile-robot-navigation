@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/lidar_obstacle/lidar_obstacle.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_obstacle/lidar_obstacle.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_obstacle/lidar_obstacle.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_obstacle/lidar_obstacle.egg-info/requires.txt
+writing top-level names to ../../build/lidar_obstacle/lidar_obstacle.egg-info/top_level.txt
+reading manifest file '../../build/lidar_obstacle/lidar_obstacle.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_obstacle/lidar_obstacle.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lidar_obstacle/obstacle_detection.py -> /home/batch9/ros2_ws/build/lidar_obstacle/build/lib/lidar_obstacle
+running install
+running install_lib
+copying /home/batch9/ros2_ws/build/lidar_obstacle/build/lib/lidar_obstacle/obstacle_detection.py -> /home/batch9/ros2_ws/install/lidar_obstacle/lib/python3.12/site-packages/lidar_obstacle
+Sorry: IndentationError: unexpected indent (obstacle_detection.py, line 46)
+byte-compiling /home/batch9/ros2_ws/install/lidar_obstacle/lib/python3.12/site-packages/lidar_obstacle/obstacle_detection.py to obstacle_detection.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/batch9/ros2_ws/install/lidar_obstacle/lib/python3.12/site-packages/lidar_obstacle-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/lidar_obstacle/lidar_obstacle.egg-info to /home/batch9/ros2_ws/install/lidar_obstacle/lib/python3.12/site-packages/lidar_obstacle-0.0.0-py3.12.egg-info
+running install_scripts
+Installing obstacle_detection script to /home/batch9/ros2_ws/install/lidar_obstacle/lib/lidar_obstacle
+writing list of installed files to '/home/batch9/ros2_ws/build/lidar_obstacle/install.log'

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info
+writing ../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info/requires.txt
+writing top-level names to ../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info/top_level.txt
+writing manifest file '../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info/SOURCES.txt'
+reading manifest file '../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/build
+creating /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/build/lib
+creating /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/build/lib/rplidar_distance_angle_publisher
+copying rplidar_distance_angle_publisher/__init__.py -> /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/build/lib/rplidar_distance_angle_publisher
+copying rplidar_distance_angle_publisher/distance_angle_publisher.py -> /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/build/lib/rplidar_distance_angle_publisher
+running install
+running install_lib
+creating /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages/rplidar_distance_angle_publisher
+copying /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/build/lib/rplidar_distance_angle_publisher/__init__.py -> /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages/rplidar_distance_angle_publisher
+copying /home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/build/lib/rplidar_distance_angle_publisher/distance_angle_publisher.py -> /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages/rplidar_distance_angle_publisher
+byte-compiling /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages/rplidar_distance_angle_publisher/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages/rplidar_distance_angle_publisher/distance_angle_publisher.py to distance_angle_publisher.cpython-312.pyc
+running install_data
+creating /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/ament_index
+creating /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/ament_index/resource_index
+creating /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/ament_index/resource_index/packages
+copying resource/rplidar_distance_angle_publisher -> /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/share/rplidar_distance_angle_publisher
+running install_egg_info
+Copying ../../build/rplidar_distance_angle_publisher/rplidar_distance_angle_publisher.egg-info to /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/python3.12/site-packages/rplidar_distance_angle_publisher-0.0.0-py3.12.egg-info
+running install_scripts
+Installing distance_angle_publisher script to /home/batch9/ros2_ws/install/rplidar_distance_angle_publisher/lib/rplidar_distance_angle_publisher
+writing list of installed files to '/home/batch9/ros2_ws/build/rplidar_distance_angle_publisher/install.log'

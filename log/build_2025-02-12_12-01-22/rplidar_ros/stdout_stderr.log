@@ -1,0 +1,13 @@
+[  7%] [32mBuilding CXX object CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o[0m
+[ 50%] Built target rplidar_composition
+[ 97%] Built target rplidar_node
+[01m[K/home/batch9/ros2_ws/src/rplidar_ros/src/rplidar_client.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K scanCb[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/batch9/ros2_ws/src/rplidar_ros/src/rplidar_client.cpp:25:5:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint count[m[K’
+   25 | int [01;31m[Kcount[m[K=1;
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/batch9/ros2_ws/src/rplidar_ros/src/rplidar_client.cpp:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kint count[m[K’ previously declared here
+   20 |   int [01;36m[Kcount[m[K = scan->scan_time / scan->time_increment;
+      |       [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/rplidar_client.dir/build.make:76: CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/rplidar_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

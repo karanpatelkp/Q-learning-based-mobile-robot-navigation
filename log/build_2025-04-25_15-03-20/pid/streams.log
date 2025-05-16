@@ -1,0 +1,37 @@
+[3.133s] Invoking command in '/home/batch9/ros2_ws/src/pid': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/pid/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/pid/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pid build --build-base /home/batch9/ros2_ws/build/pid/build install --record /home/batch9/ros2_ws/build/pid/install.log --single-version-externally-managed install_data
+[3.712s] running egg_info
+[3.712s] creating ../../build/pid/pid.egg-info
+[3.738s] writing ../../build/pid/pid.egg-info/PKG-INFO
+[3.739s] writing dependency_links to ../../build/pid/pid.egg-info/dependency_links.txt
+[3.739s] writing entry points to ../../build/pid/pid.egg-info/entry_points.txt
+[3.739s] writing requirements to ../../build/pid/pid.egg-info/requires.txt
+[3.739s] writing top-level names to ../../build/pid/pid.egg-info/top_level.txt
+[3.739s] writing manifest file '../../build/pid/pid.egg-info/SOURCES.txt'
+[3.819s] reading manifest file '../../build/pid/pid.egg-info/SOURCES.txt'
+[3.820s] writing manifest file '../../build/pid/pid.egg-info/SOURCES.txt'
+[3.820s] running build
+[3.820s] running build_py
+[3.820s] creating /home/batch9/ros2_ws/build/pid/build
+[3.820s] creating /home/batch9/ros2_ws/build/pid/build/lib
+[3.821s] creating /home/batch9/ros2_ws/build/pid/build/lib/pid
+[3.821s] copying pid/__init__.py -> /home/batch9/ros2_ws/build/pid/build/lib/pid
+[3.821s] copying pid/pid.py -> /home/batch9/ros2_ws/build/pid/build/lib/pid
+[3.821s] running install
+[3.831s] running install_lib
+[3.858s] creating /home/batch9/ros2_ws/install/pid/lib/python3.12/site-packages/pid
+[3.859s] copying /home/batch9/ros2_ws/build/pid/build/lib/pid/__init__.py -> /home/batch9/ros2_ws/install/pid/lib/python3.12/site-packages/pid
+[3.859s] copying /home/batch9/ros2_ws/build/pid/build/lib/pid/pid.py -> /home/batch9/ros2_ws/install/pid/lib/python3.12/site-packages/pid
+[3.860s] byte-compiling /home/batch9/ros2_ws/install/pid/lib/python3.12/site-packages/pid/__init__.py to __init__.cpython-312.pyc
+[3.860s] byte-compiling /home/batch9/ros2_ws/install/pid/lib/python3.12/site-packages/pid/pid.py to pid.cpython-312.pyc
+[3.860s] running install_data
+[3.861s] creating /home/batch9/ros2_ws/install/pid/share/ament_index
+[3.861s] creating /home/batch9/ros2_ws/install/pid/share/ament_index/resource_index
+[3.861s] creating /home/batch9/ros2_ws/install/pid/share/ament_index/resource_index/packages
+[3.861s] copying resource/pid -> /home/batch9/ros2_ws/install/pid/share/ament_index/resource_index/packages
+[3.861s] copying package.xml -> /home/batch9/ros2_ws/install/pid/share/pid
+[3.864s] running install_egg_info
+[3.940s] Copying ../../build/pid/pid.egg-info to /home/batch9/ros2_ws/install/pid/lib/python3.12/site-packages/pid-0.0.0-py3.12.egg-info
+[3.941s] running install_scripts
+[4.212s] Installing pid script to /home/batch9/ros2_ws/install/pid/lib/pid
+[4.212s] writing list of installed files to '/home/batch9/ros2_ws/build/pid/install.log'
+[4.391s] Invoked command in '/home/batch9/ros2_ws/src/pid' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/pid/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/pid/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pid build --build-base /home/batch9/ros2_ws/build/pid/build install --record /home/batch9/ros2_ws/build/pid/install.log --single-version-externally-managed install_data

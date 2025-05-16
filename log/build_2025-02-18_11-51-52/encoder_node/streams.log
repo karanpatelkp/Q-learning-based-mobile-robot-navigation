@@ -1,0 +1,35 @@
+[2.833s] Invoking command in '/home/batch9/ros2_ws/src/encoder_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/encoder_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/encoder_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_node build --build-base /home/batch9/ros2_ws/build/encoder_node/build install --record /home/batch9/ros2_ws/build/encoder_node/install.log --single-version-externally-managed install_data
+[3.496s] running egg_info
+[3.496s] creating ../../build/encoder_node/encoder_node.egg-info
+[3.533s] writing ../../build/encoder_node/encoder_node.egg-info/PKG-INFO
+[3.534s] writing dependency_links to ../../build/encoder_node/encoder_node.egg-info/dependency_links.txt
+[3.534s] writing requirements to ../../build/encoder_node/encoder_node.egg-info/requires.txt
+[3.535s] writing top-level names to ../../build/encoder_node/encoder_node.egg-info/top_level.txt
+[3.535s] writing manifest file '../../build/encoder_node/encoder_node.egg-info/SOURCES.txt'
+[3.626s] reading manifest file '../../build/encoder_node/encoder_node.egg-info/SOURCES.txt'
+[3.627s] writing manifest file '../../build/encoder_node/encoder_node.egg-info/SOURCES.txt'
+[3.630s] running build
+[3.631s] running build_py
+[3.632s] creating /home/batch9/ros2_ws/build/encoder_node/build
+[3.632s] creating /home/batch9/ros2_ws/build/encoder_node/build/lib
+[3.635s] creating /home/batch9/ros2_ws/build/encoder_node/build/lib/encoder_node
+[3.635s] copying encoder_node/__init__.py -> /home/batch9/ros2_ws/build/encoder_node/build/lib/encoder_node
+[3.636s] copying encoder_node/encoder_pub.py -> /home/batch9/ros2_ws/build/encoder_node/build/lib/encoder_node
+[3.636s] running install
+[3.664s] running install_lib
+[3.746s] creating /home/batch9/ros2_ws/install/encoder_node/lib/python3.12/site-packages/encoder_node
+[3.746s] copying /home/batch9/ros2_ws/build/encoder_node/build/lib/encoder_node/__init__.py -> /home/batch9/ros2_ws/install/encoder_node/lib/python3.12/site-packages/encoder_node
+[3.746s] copying /home/batch9/ros2_ws/build/encoder_node/build/lib/encoder_node/encoder_pub.py -> /home/batch9/ros2_ws/install/encoder_node/lib/python3.12/site-packages/encoder_node
+[3.747s] byte-compiling /home/batch9/ros2_ws/install/encoder_node/lib/python3.12/site-packages/encoder_node/__init__.py to __init__.cpython-312.pyc
+[3.748s] byte-compiling /home/batch9/ros2_ws/install/encoder_node/lib/python3.12/site-packages/encoder_node/encoder_pub.py to encoder_pub.cpython-312.pyc
+[3.749s] running install_data
+[3.750s] creating /home/batch9/ros2_ws/install/encoder_node/share/ament_index
+[3.751s] creating /home/batch9/ros2_ws/install/encoder_node/share/ament_index/resource_index
+[3.751s] creating /home/batch9/ros2_ws/install/encoder_node/share/ament_index/resource_index/packages
+[3.751s] copying resource/encoder_node -> /home/batch9/ros2_ws/install/encoder_node/share/ament_index/resource_index/packages
+[3.751s] copying package.xml -> /home/batch9/ros2_ws/install/encoder_node/share/encoder_node
+[3.751s] running install_egg_info
+[3.800s] Copying ../../build/encoder_node/encoder_node.egg-info to /home/batch9/ros2_ws/install/encoder_node/lib/python3.12/site-packages/encoder_node-0.0.0-py3.12.egg-info
+[3.800s] running install_scripts
+[4.088s] writing list of installed files to '/home/batch9/ros2_ws/build/encoder_node/install.log'
+[4.215s] Invoked command in '/home/batch9/ros2_ws/src/encoder_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/build/encoder_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/install/encoder_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_node build --build-base /home/batch9/ros2_ws/build/encoder_node/build install --record /home/batch9/ros2_ws/build/encoder_node/install.log --single-version-externally-managed install_data

@@ -1,0 +1,34 @@
+[0.000000] (-) TimerEvent: {}
+[0.000400] (encoder_node) JobQueued: {'identifier': 'encoder_node', 'dependencies': OrderedDict()}
+[0.000512] (lidar_obstacle) JobQueued: {'identifier': 'lidar_obstacle', 'dependencies': OrderedDict()}
+[0.000537] (motor_node) JobQueued: {'identifier': 'motor_node', 'dependencies': OrderedDict()}
+[0.000557] (my-test-package) JobQueued: {'identifier': 'my-test-package', 'dependencies': OrderedDict()}
+[0.000575] (pid) JobQueued: {'identifier': 'pid', 'dependencies': OrderedDict()}
+[0.000594] (pid_control_node) JobQueued: {'identifier': 'pid_control_node', 'dependencies': OrderedDict()}
+[0.000614] (q_learning_node) JobQueued: {'identifier': 'q_learning_node', 'dependencies': OrderedDict()}
+[0.000631] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.000647] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.001090] (encoder_node) JobStarted: {'identifier': 'encoder_node'}
+[0.044549] (lidar_obstacle) JobStarted: {'identifier': 'lidar_obstacle'}
+[0.060507] (motor_node) JobStarted: {'identifier': 'motor_node'}
+[0.078198] (my-test-package) JobStarted: {'identifier': 'my-test-package'}
+[0.099756] (-) TimerEvent: {}
+[0.200202] (-) TimerEvent: {}
+[0.300549] (-) TimerEvent: {}
+[0.400866] (-) TimerEvent: {}
+[0.501210] (-) TimerEvent: {}
+[0.601665] (-) TimerEvent: {}
+[0.641253] (lidar_obstacle) JobEnded: {'identifier': 'lidar_obstacle', 'rc': 0}
+[0.701769] (-) TimerEvent: {}
+[0.802088] (-) TimerEvent: {}
+[0.902431] (-) TimerEvent: {}
+[1.002762] (-) TimerEvent: {}
+[1.084827] (encoder_node) JobEnded: {'identifier': 'encoder_node', 'rc': 'SIGINT'}
+[1.086908] (my-test-package) JobEnded: {'identifier': 'my-test-package', 'rc': 'SIGINT'}
+[1.087868] (motor_node) JobEnded: {'identifier': 'motor_node', 'rc': 'SIGINT'}
+[1.096739] (pid) JobSkipped: {'identifier': 'pid'}
+[1.097039] (pid_control_node) JobSkipped: {'identifier': 'pid_control_node'}
+[1.097139] (q_learning_node) JobSkipped: {'identifier': 'q_learning_node'}
+[1.097190] (rplidar_ros) JobSkipped: {'identifier': 'rplidar_ros'}
+[1.097264] (sllidar_ros2) JobSkipped: {'identifier': 'sllidar_ros2'}
+[1.097339] (-) EventReactorShutdown: {}

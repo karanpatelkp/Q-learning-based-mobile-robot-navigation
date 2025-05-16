@@ -1,0 +1,2 @@
+[console_scripts]
+distance_angle_publisher = rplidar_distance_angle_publisher.distance_angle_publisher:main

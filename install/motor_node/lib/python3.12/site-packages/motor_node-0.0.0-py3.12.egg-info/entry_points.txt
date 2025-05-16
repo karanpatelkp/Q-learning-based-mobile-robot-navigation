@@ -1,0 +1,2 @@
+[console_scripts]
+motor_sub = motor_node.motor_sub:main

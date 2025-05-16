@@ -1,0 +1,24 @@
+[2.897s] Invoking command in '/home/batch9/ros2_ws/src/build/encoder_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/src/build/encoder_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/src/install/encoder_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/batch9/ros2_ws/src/build/encoder_node/build --no-deps symlink_data
+[3.469s] running develop
+[3.792s] running egg_info
+[3.792s] creating encoder_node.egg-info
+[3.819s] writing encoder_node.egg-info/PKG-INFO
+[3.820s] writing dependency_links to encoder_node.egg-info/dependency_links.txt
+[3.820s] writing entry points to encoder_node.egg-info/entry_points.txt
+[3.820s] writing requirements to encoder_node.egg-info/requires.txt
+[3.820s] writing top-level names to encoder_node.egg-info/top_level.txt
+[3.821s] writing manifest file 'encoder_node.egg-info/SOURCES.txt'
+[3.882s] reading manifest file 'encoder_node.egg-info/SOURCES.txt'
+[3.883s] writing manifest file 'encoder_node.egg-info/SOURCES.txt'
+[3.935s] running build_ext
+[3.935s] Creating /home/batch9/ros2_ws/src/install/encoder_node/lib/python3.12/site-packages/encoder-node.egg-link (link to .)
+[3.936s] Installing encoder_pub script to /home/batch9/ros2_ws/src/install/encoder_node/lib/encoder_node
+[3.936s] 
+[3.937s] Installed /home/batch9/ros2_ws/src/build/encoder_node
+[3.937s] running symlink_data
+[3.937s] creating /home/batch9/ros2_ws/src/install/encoder_node/share/ament_index
+[3.940s] creating /home/batch9/ros2_ws/src/install/encoder_node/share/ament_index/resource_index
+[3.941s] creating /home/batch9/ros2_ws/src/install/encoder_node/share/ament_index/resource_index/packages
+[3.941s] symbolically linking /home/batch9/ros2_ws/src/build/encoder_node/resource/encoder_node -> /home/batch9/ros2_ws/src/install/encoder_node/share/ament_index/resource_index/packages
+[3.941s] symbolically linking /home/batch9/ros2_ws/src/build/encoder_node/package.xml -> /home/batch9/ros2_ws/src/install/encoder_node/share/encoder_node
+[4.163s] Invoked command in '/home/batch9/ros2_ws/src/build/encoder_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/batch9/ros2_ws/src/build/encoder_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batch9/ros2_ws/src/install/encoder_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/batch9/ros2_ws/src/build/encoder_node/build --no-deps symlink_data

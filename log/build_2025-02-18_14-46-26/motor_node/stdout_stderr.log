@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing motor_node.egg-info/PKG-INFO
+writing dependency_links to motor_node.egg-info/dependency_links.txt
+writing entry points to motor_node.egg-info/entry_points.txt
+writing requirements to motor_node.egg-info/requires.txt
+writing top-level names to motor_node.egg-info/top_level.txt
+reading manifest file 'motor_node.egg-info/SOURCES.txt'
+writing manifest file 'motor_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/batch9/ros2_ws/install/motor_node/lib/python3.12/site-packages/motor-node.egg-link (link to .)
+Installing motor_sub script to /home/batch9/ros2_ws/install/motor_node/lib/motor_node
+
+Installed /home/batch9/ros2_ws/build/motor_node
+running symlink_data

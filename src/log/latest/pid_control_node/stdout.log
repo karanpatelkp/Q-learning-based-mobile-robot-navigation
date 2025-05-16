@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating pid_control_node.egg-info
+writing pid_control_node.egg-info/PKG-INFO
+writing dependency_links to pid_control_node.egg-info/dependency_links.txt
+writing entry points to pid_control_node.egg-info/entry_points.txt
+writing requirements to pid_control_node.egg-info/requires.txt
+writing top-level names to pid_control_node.egg-info/top_level.txt
+writing manifest file 'pid_control_node.egg-info/SOURCES.txt'
+reading manifest file 'pid_control_node.egg-info/SOURCES.txt'
+writing manifest file 'pid_control_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/batch9/ros2_ws/src/install/pid_control_node/lib/python3.12/site-packages/pid-control-node.egg-link (link to .)
+Installing pid_control script to /home/batch9/ros2_ws/src/install/pid_control_node/lib/pid_control_node
+
+Installed /home/batch9/ros2_ws/src/build/pid_control_node
+running symlink_data
+creating /home/batch9/ros2_ws/src/install/pid_control_node/share/ament_index
+creating /home/batch9/ros2_ws/src/install/pid_control_node/share/ament_index/resource_index
+creating /home/batch9/ros2_ws/src/install/pid_control_node/share/ament_index/resource_index/packages
+symbolically linking /home/batch9/ros2_ws/src/build/pid_control_node/resource/pid_control_node -> /home/batch9/ros2_ws/src/install/pid_control_node/share/ament_index/resource_index/packages
+symbolically linking /home/batch9/ros2_ws/src/build/pid_control_node/package.xml -> /home/batch9/ros2_ws/src/install/pid_control_node/share/pid_control_node

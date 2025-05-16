@@ -1,0 +1,15 @@
+[0.034s] Invoking command in '/home/batch9/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/batch9/ros2_ws/build/rplidar_ros -- -j4 -l4
+[0.169s] [  5%] Built target rplidar_client
+[0.188s] [  7%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o[0m
+[0.191s] [ 10%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o[0m
+[0.197s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/batch9/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp: No such file or directory
+[0.198s] compilation terminated.
+[0.198s] gmake[2]: *** [CMakeFiles/rplidar_composition.dir/build.make:76: CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o] Error 1
+[0.199s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/rplidar_composition.dir/all] Error 2
+[0.199s] gmake[1]: *** Waiting for unfinished jobs....
+[0.202s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/batch9/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp: No such file or directory
+[0.203s] compilation terminated.
+[0.205s] gmake[2]: *** [CMakeFiles/rplidar_node.dir/build.make:76: CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o] Error 1
+[0.205s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/rplidar_node.dir/all] Error 2
+[0.207s] gmake: *** [Makefile:146: all] Error 2
+[0.212s] Invoked command in '/home/batch9/ros2_ws/build/rplidar_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/batch9/ros2_ws/install/rplidar_distance_angle_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/batch9/ros2_ws/build/rplidar_ros -- -j4 -l4

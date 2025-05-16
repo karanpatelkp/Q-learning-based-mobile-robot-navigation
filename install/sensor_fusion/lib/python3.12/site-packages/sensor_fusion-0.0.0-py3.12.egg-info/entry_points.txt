@@ -1,0 +1,2 @@
+[console_scripts]
+sensor_fusion = sensor_fusion.sensor_fusion:main

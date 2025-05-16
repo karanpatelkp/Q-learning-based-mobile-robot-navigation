@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating lidar_obstacle.egg-info
+writing lidar_obstacle.egg-info/PKG-INFO
+writing dependency_links to lidar_obstacle.egg-info/dependency_links.txt
+writing entry points to lidar_obstacle.egg-info/entry_points.txt
+writing requirements to lidar_obstacle.egg-info/requires.txt
+writing top-level names to lidar_obstacle.egg-info/top_level.txt
+writing manifest file 'lidar_obstacle.egg-info/SOURCES.txt'
+reading manifest file 'lidar_obstacle.egg-info/SOURCES.txt'
+writing manifest file 'lidar_obstacle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/batch9/ros2_ws/src/install/lidar_obstacle/lib/python3.12/site-packages/lidar-obstacle.egg-link (link to .)
+Installing obstacle_detection script to /home/batch9/ros2_ws/src/install/lidar_obstacle/lib/lidar_obstacle
+
+Installed /home/batch9/ros2_ws/src/build/lidar_obstacle
+running symlink_data
+creating /home/batch9/ros2_ws/src/install/lidar_obstacle/share/ament_index
+creating /home/batch9/ros2_ws/src/install/lidar_obstacle/share/ament_index/resource_index
+creating /home/batch9/ros2_ws/src/install/lidar_obstacle/share/ament_index/resource_index/packages
+symbolically linking /home/batch9/ros2_ws/src/build/lidar_obstacle/resource/lidar_obstacle -> /home/batch9/ros2_ws/src/install/lidar_obstacle/share/ament_index/resource_index/packages
+symbolically linking /home/batch9/ros2_ws/src/build/lidar_obstacle/package.xml -> /home/batch9/ros2_ws/src/install/lidar_obstacle/share/lidar_obstacle

@@ -1,0 +1,5 @@
+  File "/home/batch9/ros2_ws/install/pid_control_node/lib/python3.12/site-packages/pid_control_node/pid_control.py", line 110
+    pwm[i]=int(ans)*int(speeds[i]/abs(speeds[i])
+                       ^
+SyntaxError: '(' was never closed
+
