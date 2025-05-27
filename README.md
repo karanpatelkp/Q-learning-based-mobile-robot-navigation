@@ -51,7 +51,7 @@ The flow of data is visualized in the included `rqt_graph`:![image](https://gith
 ```bash
 # Clone the application into your ROS2 workspace
 cd ~/ros2_ws/src
-git clone https://github.com/username/autonomous_robot.git
+git clone https://github.com/karanpatelkp/autonomous_robot.git
 
 # Install Python dependencies
 cd ../
